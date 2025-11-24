@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #083055; /* azul bem clarinho de fundo */
+}
+
+.menu {
+  background-color: #00101f; /* mesmo azul do fundo */
+  padding: 15px 0;
+  text-align: right; /* alinha o menu à direita */
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex; /* para alinhar ao lado direito */
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white; /* letra branca */
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif; /* força o Times */
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #14184d; /* muda a cor ao passar o mouse */
+}
+
+#titulo1{
+  text-align: right;
+  font-size: 20%;
+  color: white;
+}
